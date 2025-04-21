@@ -48,7 +48,7 @@ result = cq.Workplane("XY").cylinder(20, 5)
 # ... more examples ...
 """
 ```
-![image](https://github.com/user-attachments/assets/5935cabd-4ddd-4e61-9958-4fe9806b1f79)
+![image](https://github.com/user-attachments/assets/479379b5-061c-49b9-8b14-a6a7c2f0d3a5)
 
 
 ### 2. Structured Output (JSON Mode)
@@ -180,8 +180,8 @@ The script successfully generated executable CadQuery code for the simpler geome
 import cadquery as cq
 result = cq.Workplane('XY').box(30, 30, 10).faces('>Z').workplane().circle(7.5).cutThruAll()
 ```
+![image](https://github.com/user-attachments/assets/20b3d15a-b7c2-4a82-bc93-21713214c8fc)
 
-![image](https://github.com/user-attachments/assets/f025ff5b-de40-4737-84ab-b443442dba0d)
 
 
 **2. Cylinder with Chamfer:**
@@ -191,8 +191,8 @@ result = cq.Workplane('XY').box(30, 30, 10).faces('>Z').workplane().circle(7.5).
 import cadquery as cq
 result = cq.Workplane('XY').cylinder(50, 10).edges(">Z").chamfer(2)
 ```
+![image](https://github.com/user-attachments/assets/3aa27e53-2c99-4daa-b1ca-c2a21f721604)
 
-![image](https://github.com/user-attachments/assets/d3eca7f6-4673-4338-ad13-bc13eac375f6)
 
 
 **3. Thick Washer (from Document):**
@@ -205,8 +205,8 @@ inner_diameter = 15
 thickness = 4
 result = cq.Workplane("XY").circle(outer_diameter / 2).circle(inner_diameter / 2).extrude(thickness)
 ```
+![image](https://github.com/user-attachments/assets/540d2929-3d50-4e4d-bfd0-bb1b64a303b9)
 
-![image](https://github.com/user-attachments/assets/c73743ae-6482-426d-b282-7d56efc29e80)
 
 ---
 
