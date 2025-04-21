@@ -13,7 +13,7 @@ This project explores using Generative AI, specifically Google's Gemini models, 
 The core idea is straightforward:
 
 1.  **User Input:** Provide a text prompt describing the desired part (e.g., "a 10x10x10 mm cube").
-2.  **AI Processing:** Send this prompt, along with carefully crafted instructions and examples, to a Gemini LLM via the `google-generativeai` Python library.
+2.  **AI Processing:** Send this prompt, along with carefully crafted instructions and examples, to a Gemini LLM via the `google_genai` Python library.
 3.  **Code Generation:** The LLM generates Python code using the CadQuery library syntax.
 4.  **Execution & Visualization:** The generated code is executed, and if successful, the resulting 3D model is visualized directly within the Kaggle notebook using the `jupyter-cadquery` extension.
 
