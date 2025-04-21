@@ -1,8 +1,4 @@
----
-layout: post
-title: "CAD-Assistance for Gen AI Intensive Course Capstone 2025Q1"
-date: 2024-04-20 
----
+# CAD-Assistance for Gen AI Intensive Course Capstone 2025Q1
 
 ## Introduction: Can AI Help Us Design Faster?
 
