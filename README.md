@@ -176,7 +176,8 @@ The script successfully generated executable CadQuery code for the simpler geome
 import cadquery as cq
 result = cq.Workplane('XY').box(30, 30, 10).faces('>Z').workplane().circle(7.5).cutThruAll()
 ```
-![image](https://github.com/user-attachments/assets/20b3d15a-b7c2-4a82-bc93-21713214c8fc)
+![image](https://github.com/user-attachments/assets/4eba1960-1143-4958-8525-9e2d1c7b9015)
+
 
 
 
