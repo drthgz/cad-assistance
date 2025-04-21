@@ -1,5 +1,3 @@
-# cad-assistance
-
 ---
 layout: post
 title: "CAD-Assistance for Gen AI Intensive Course Capstone 2025Q1"
